@@ -31,7 +31,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: auto;
+  height: 80vh;
   margin-top: 10px;
   margin-bottom: 10px;
 
@@ -92,7 +92,7 @@ header {
         flex-direction: column;
         align-items: center;
         width: auto;
-        margin-left: 3%;
+        margin-left: 2%;
         
         // battery led
         .batteryLight {
@@ -114,7 +114,7 @@ header {
       .display {
         width: 90%;
         height: 80%;
-        margin: 4%;
+        margin: 4% 4% 4% 1%;
         padding: 1%;
         background-color: #cecdd8;
         display: flex;
@@ -287,6 +287,8 @@ header {
   width: 90%;
   height: 140px;
   display: flex;
+  flex-grow: 1;
+  padding-top: 50px;
 
   .optionButtons {
     height: 80px;
@@ -330,6 +332,7 @@ header {
     justify-content: flex-end;
     gap: 10px;
     transform: rotate(-30deg);
+    margin-bottom: 25px;
 
     .speakerHole {
       width: 10px;
