@@ -3,30 +3,82 @@ MEDIA QUERIES
 **************/
   
   
-@media (max-width: 1200px) {
+@media (max-width: 1090px) {
 
   .container .gameBox {
-    width: 60vw;
-    min-height: 100vh;
+    width: 50vw;
+    min-height: 90%;
+  }
+  .bottomSection .optionButtons {
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 15px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
 
   .container .gameBox {
-      min-height: 90vh;
+      min-height: 70%;
     }
 
-  .bottomSection {
-    padding-top: 20px;
-  }
+    .btnCircle {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .btnSquare {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .lowerHalf {
+      .dPad {
+        width: 90px;
+        height: 90px;
+  
+        .btnMiddle .btnCicMid {
+          width: 25px;
+          height: 25px;
+        }
+      }
+  
+      .buttons {
+        width: 80px;
+        margin-right: 20px;
+  
+        .btnLeft .btnLabel,
+        .btnRight .btnLabel {
+          left: 40px;
+        }
+      }
+    }
+
+    .bottomSection {
+      .optionButtons {
+        padding-right: 20px;
+      }
+
+      .speaker {
+        gap: 7px;
+        margin-right: 5px;
+          // align-self: center;
+          // margin-left: -40vw;
+  
+          .speakerHole {
+            // height: 70px;
+            
+          }
+        }
+    }
+
 }
 
-@media (max-width: 480px) {
+@media (max-width: 510px) {
 
   .container .gameBox {
       width: 80vw;
-      min-height: 90vh;
+      min-height: 100%;
     }
 
   .container .gameBox .screen .display {
@@ -89,16 +141,16 @@ MEDIA QUERIES
         }
       }
   
-      .speaker {
-        gap: 7px;
-        align-self: center;
-        margin-left: -40vw;
+      // .speaker {
+      //   gap: 7px;
+      //   align-self: flex-end;
+      //   margin-left: -40vw;
 
-        .speakerHole {
-          height: 70px;
+      //   .speakerHole {
+      //     height: 70px;
           
-        }
-      }
+      //   }
+      // }
     }
   }
 
