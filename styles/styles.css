@@ -569,7 +569,7 @@ header .instructionArrows {
       -ms-flex-direction: column;
           flex-direction: column;
   text-transform: uppercase;
-  padding: 20% 10%;
+  padding: 10px 10px;
 }
 .container .gameBox .screen .display .bottomDisplay .leftScreen .pokemonSprite,
 .container .gameBox .screen .display .bottomDisplay .rightScreen .pokemonSprite {
